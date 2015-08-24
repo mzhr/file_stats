@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 
+
 def create_graph(data):
 
 	# Setup data to be used for graph
@@ -33,3 +34,4 @@ def setup_data(data):
 				word_count = word_count + 1
 
 	return new_data
+
