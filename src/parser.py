@@ -24,7 +24,7 @@ def open_files(argv):
 		except IOError as e:
 			print("I/O error({0}): {1} '{2}'".format(
 				e.errno, e.strerror, argv[i]))
-			break
+			sys.exit()
 
 	return files
 
